@@ -1,9 +1,9 @@
 DEPENDPATH += $$PWD
 INCLUDEPATH += $$PWD
 
-SOURCES += qtredis.cpp \
-    reader.cpp
+SOURCES += $$PWD/qtredis.cpp \
+    $$PWD/reader.cpp
 
-HEADERS += QtRedis \
-    qtredis.h \
-    reader.h
+HEADERS += $$PWD/QtRedis \
+    $$PWD/qtredis.h \
+    $$PWD/reader.h
